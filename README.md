@@ -656,12 +656,16 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
 ## Trees
 
 - ### Trees - Notes & Background
-    - [ ] [Series: Core Trees (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/ovovP/core-trees)
-    - [ ] [Series: Trees (video)](https://www.coursera.org/learn/data-structures/lecture/95qda/trees)
-    - basic tree construction
-    - traversal
+    - [x] Only one root node, no circuit in leaf node
+    - [x] Linked list structure
+    - [x] [Series: Core Trees (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/ovovP/core-trees)
+    - [x] Depth-first Traversals
+        - Pre-order Traversals - Visit yourself and vist left and visit right (recursive)
+        - Post-order Traversals - Visit yourself last before visiting left and right 
+    - [x] Breadth-first Traversals
+        - Level-order Traversals - Prepare an list and remove the visited node and add it's children 
     - manipulation algorithms
-    - [ ] [BFS(breadth-first search) and DFS(depth-first search) (video)](https://www.youtube.com/watch?v=uWL6FJhq5fM)
+    - [x] [BFS(breadth-first search) and DFS(depth-first search) (video)](https://www.youtube.com/watch?v=uWL6FJhq5fM)
         - BFS notes:
            - level order (BFS, using queue)
            - time complexity: O(n)
